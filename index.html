@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <title>Base Apparel coming soon page</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <main class="grid"> 
+    <header>
+      <img src="./images/logo.svg" alt="logo of the base apparel company">
+    </header>
+
+    <picture>
+      <source srcset="./images/hero-mobile.jpg" media="(max-width: 600px)">
+      <img src="./images/hero-desktop.jpg" alt="image of the brand woman">
+    </picture>
+    <section class="flex">
+      <div>
+        <h1><span>WE'RE</span> COMING SOON</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashtion store. Add your email below to stay up-to-date with announcements and our lauch deals.</p>
+      </div>
+
+      <form action="#" method="#">
+        <div class="email-bar flex">
+          <div class="flex">
+            <label aria-label="Email Address">
+              <input type="email" class="email-input" name="email" placeholder="Email Address">
+            </label>
+            <img src="./images/icon-error.svg" alt="error icon to inform that email field is empty" class="icon-error"> 
+          </div>
+          <button type="button" class="icon-arrow"><img src="./images/icon-arrow.svg" alt="arrow icon to submit email address"></button>
+        </div>
+     
+        <p class="email-not-valid-msg">Enter a valid email address.</p>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/pradeeps4ini">Pradeep Saini</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
